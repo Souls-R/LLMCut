@@ -157,7 +157,7 @@ export default function Home() {
                 />
                 <input
                   className="input input-bordered w-full my-1"
-                  type="text"
+                  type="password"
                   placeholder='api密钥'
                   value={llmConfig.key}
                   onChange={(event) => {
