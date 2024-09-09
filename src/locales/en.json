@@ -1,0 +1,17 @@
+{
+    "banner": "Use nature language to process your video",
+    "upload": "Upload",
+    "processPrompt": "HOW DO YOU WANT TO PROCESS YOUR VIDEO?",
+    "faq_1": {
+        "title": "What can I do with LLMCut?",
+        "text": "LLMCut is a video editing tool that helps you quickly edit videos."
+    },
+    "faq_2": {
+        "title": "How to use LLMCut?",
+        "text": "Upload your video and input your editing requirements in the text box. LLM will generate ffmpeg commands and process your video with ffmpeg in WASM."
+    },
+    "faq_3": {
+        "title": "How long does it take to process a video?",
+        "text": "A few minutes, depending on your computer's performance."
+    }
+}
