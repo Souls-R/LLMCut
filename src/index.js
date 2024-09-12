@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App.js';
 import reportWebVitals from './reportWebVitals';
-import 'react-material-symbols/rounded'; // Place in your root app file. There are also `sharp` and `outlined` variants.
 import './i18n.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

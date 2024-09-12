@@ -1,4 +1,5 @@
-import { MaterialSymbol } from 'react-material-symbols';
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineTranslate } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
 
 function Header() {
@@ -10,9 +11,11 @@ function Header() {
     };
 
     return (
-        <header className="flex justify-end items-center w-full p-8">
+        <header className="flex justify-between items-center w-full p-8">
+            <a href="https://github.com/Souls-R/LLMCut" target="_black"><FaGithub size={36} fill='currentColor' /></a>
             <button onClick={() => changeLanguage()} className="flex items-center">
-                <MaterialSymbol icon="translate" size={36} />
+                <MdOutlineTranslate size={36} fill='currentColor' />
+                {/* <MaterialSymbol icon="translate" size={36} /> */}
             </button>
         </header>
     );
