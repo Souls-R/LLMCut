@@ -1,3 +1,4 @@
+import React from "react";
 import { MdOutlineSettings } from "react-icons/md";
 
 function ControlZone() {

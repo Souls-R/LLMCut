@@ -1,10 +1,11 @@
 import './App.css';
-import UploadZone from './UploadZone.js';
-import InputZone from './InputZone.js';
-import ControlZone from './ControlZone.js';
+import React from 'react';
+import UploadZone from './UploadZone';
+import InputZone from './InputZone';
+import ControlZone from './ControlZone';
 import { useTranslation } from 'react-i18next';
-import Header from './Header.js';
-import FaqBlock from './FaqBlock.js';
+import Header from './Header';
+import FaqBlock from './FaqBlock';
 
 function App() {
 

@@ -1,3 +1,4 @@
+import React from "react";
 import { MdOutlineFileCopy } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
 

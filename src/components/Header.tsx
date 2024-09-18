@@ -1,3 +1,4 @@
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineTranslate } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
